@@ -8,10 +8,23 @@ Template.sidebar.helpers({
   }
 });
 
-Template.qfsidebar.helpers({
+
+Template.home.helpers({
   products: function(){
-    return Products.find({},{
-      name: name
+    return Products.find({}, {
+      sort: {
+        name: 1
+      }
+    });
+  }
+});
+
+Template.featured.helpers({
+  products: function(){
+    return Products.find({is_featured: "1"}, {
+      sort:{
+        createdAt: 1
+      }
     });
   }
 });

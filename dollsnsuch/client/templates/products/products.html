@@ -4,7 +4,7 @@
       <div class="col-md-3">
         {{> sidebar}}
       </div>
-      <div class="col-md-7">
+      <div class="col-md-9">
         <h3>Products</h3>
         {{#each products}}
           <div class="row">
@@ -14,7 +14,7 @@
             <div class="col-md-8">
               <h4>{{name}}</h4>
               <p>{{year}}</p>
-              <p class="lightblue">{{price}}</p>
+              <p class="lightblue">$ {{price}}</p>
               <p>{{description}}</p>
             </div>
           </div>
@@ -23,9 +23,7 @@
           <p>No products here, add some quickly!!</p>
         {{/each}}
       </div>
-      <div class="col-md-2">
-        {{> qfsidebar}}
-      </div>
+
     </div>
   </div>
 </template>

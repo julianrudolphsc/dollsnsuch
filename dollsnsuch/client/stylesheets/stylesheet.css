@@ -1,7 +1,11 @@
 .lightblue {
   color: #73c5e1;
 }
+//jumboron
 
+.jumbotron h1{
+  background-color: #eb65a0 !important;
+}
 
 /*navbar styles*/
 .navbar {
@@ -42,8 +46,8 @@ header form {
   border-radius: 5px;
 }
 #products img {
-  width: 130px;
-  height: 130px;
+  width: auto;
+  height: auto;
 }
 .jumbotron {
   overflow: auto;
@@ -89,9 +93,10 @@ header form {
   height: 275px;
   padding-top: 20px;
 }
-.slid-img {
-  float: right;
-  width: 50%;
+.slide-img {
+  /*float: right;*/
+  border-radius: 5%;
+  width: 40%;
 }
 .tab-text {
   float: left;

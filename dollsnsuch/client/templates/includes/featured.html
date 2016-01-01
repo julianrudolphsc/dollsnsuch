@@ -11,14 +11,16 @@
       </ul>
       <!-- Tab panes -->
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="featured">
-          <div class="tab-text">
-            <h2>{{Products.target.name.value}}</h2>
-            <p></p>
-            <a href="product.html" class="btn btn-default">Read More</a>
+        {{#each products}}
+          <div role="tabpanel" class="tab-pane" id="interesting">
+            <div class="tab-text">
+              <h2>{{name}}</h2>
+              <p>{{description}}</p>
+              <a href="product.html" class="btn btn-default">Read More</a>
+            </div>
+            <img class="slide-img" src="{{image}}" alt="Description here!!!">
           </div>
-          <img class="slide-img" src="img/iphone.png" alt="Description here!!!">
-        </div>
+        {{/each}}
         <div role="tabpanel" class="tab-pane" id="interesting">
           <div class="tab-text">
             <h2>Smart TV</h2>
