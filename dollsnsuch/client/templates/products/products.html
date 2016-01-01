@@ -1,0 +1,62 @@
+<template name="products">
+  <div class="container">
+    <div class="col-md-3">
+      {{> sidebar}}
+    </div>
+  <div class="col-md-6">
+    <section>
+        <div class="row">
+          
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/s5.png" class="main-img" alt="DESC here!">
+              </div>
+              <div class="col-md-8">
+                <h2>Samsung Galexy S5</h2>
+                <div class="price">
+                  $699.99
+                </div>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dicta praesentium voluptatum amet qui, impedit cupiditate tempora rerum, harum consequatur nesciunt. A enim blanditiis, quasi nam. Neque maxime, eum dolor.7</p>
+                <a href="#" class='btn btn-success'>Buy Now</a>
+                <hr>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Condition
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="panel-body">
+                        Box conditino, item conditon Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta in corporis dolore omnis aliquam eos facilis minima temporibus est beatae eligendi et dolorum obcaecati tempora quo ipsam ducimus, ullam impedit.20
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Shipping & Handling
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="panel-body">
+                        shipping information here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi amet delectus minus possimus commodi iusto labore, aliquam incidunt vitae nisi? Consequuntur, cumque?
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+  </div>
+  <div class="col-md-3">
+    {{> qfsidebar}}
+  </div>
+</div>
+</template>
