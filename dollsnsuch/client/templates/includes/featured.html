@@ -1,54 +1,56 @@
 <template name="featured">
-  <div class="jumbotron">
-    <!-- Nav tabs -->
-    <ul class="tablist" role="tablist">
-      <li role="presentation" class="active"><a href="#featured" aria-controls="featured" role="tab" data-toggle="tab">Featured Item</a></li>
-      <li role="presentation"><a href="#best" aria-controls="best" role="tab" data-toggle="tab">Best Seller</a></li>
-      <li role="presentation"><a href="#discount" aria-controls="discount" role="tab" data-toggle="tab">Discount</a></li>
-      <li role="presentation"><a href="#premium" aria-controls="premium" role="tab" data-toggle="tab">Premium Product</a></li>
-      <li role="presentation"><a href="#gift" aria-controls="gift" role="tab" data-toggle="tab">Gift Idea</a></li>
-    </ul>
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="featured">
-        <div class="tab-text">
-          <h2>Apple iPhone 6</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
-          <a href="product.html" class="btn btn-default">Read More</a>
+  <div class="container">
+    <div class="jumbotron">
+      <!-- Nav tabs -->
+      <ul class="tablist" role="tablist">
+        <li role="presentation" class="active"><a href="#featured" aria-controls="featured" role="tab" data-toggle="tab">Featured Item</a></li>
+        <li role="presentation"><a href="#interesting" aria-controls="best" role="tab" data-toggle="tab">Interesting Find</a></li>
+        <li role="presentation"><a href="#discount" aria-controls="discount" role="tab" data-toggle="tab">Discounted Item</a></li>
+        <li role="presentation"><a href="#gift" aria-controls="premium" role="tab" data-toggle="tab">Gift Idea</a></li>
+        <li role="presentation"><a href="#specialmessage" aria-controls="gift" role="tab" data-toggle="tab">Special Message</a></li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="featured">
+          <div class="tab-text">
+            <h2>Apple iPhone 6</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
+            <a href="product.html" class="btn btn-default">Read More</a>
+          </div>
+          <img class="slide-img" src="img/iphone.png" alt="Description here!!!">
         </div>
-        <img class="slide-img" src="img/iphone.png" alt="Description here!!!">
-      </div>
-      <div role="tabpanel" class="tab-pane" id="best">
-        <div class="tab-text">
-          <h2>Smart TV</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
-          <a href="product.html" class="btn btn-default">Read More</a>
+        <div role="tabpanel" class="tab-pane" id="interesting">
+          <div class="tab-text">
+            <h2>Smart TV</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
+            <a href="product.html" class="btn btn-default">Read More</a>
+          </div>
+          <img class="slide-img" src="img/tv.png" alt="Description here!!!">
         </div>
-        <img class="slide-img" src="img/tv.png" alt="Description here!!!">
-      </div>
-      <div role="tabpanel" class="tab-pane" id="discount">
-        <div class="tab-text">
-          <h2>Xbox One</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
-          <a href="product.html" class="btn btn-default">Read More</a>
+        <div role="tabpanel" class="tab-pane" id="discount">
+          <div class="tab-text">
+            <h2>Xbox One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
+            <a href="product.html" class="btn btn-default">Read More</a>
+          </div>
+          <img class="slide-img" src="img/xbox.png" alt="Description here!!!">
         </div>
-        <img class="slide-img" src="img/xbox.png" alt="Description here!!!">
-      </div>
-      <div role="tabpanel" class="tab-pane" id="premium">
-        <div class="tab-text">
-          <h2>PlayStation 4</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
-          <a href="product.html" class="btn btn-default">Read More</a>
+        <div role="tabpanel" class="tab-pane" id="gift">
+          <div class="tab-text">
+            <h2>PlayStation 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
+            <a href="product.html" class="btn btn-default">Read More</a>
+          </div>
+          <img class="slide-img" src="img/ps4.png" alt="Description here!!!">
         </div>
-        <img class="slide-img" src="img/ps4.png" alt="Description here!!!">
-      </div>
-      <div role="tabpanel" class="tab-pane" id="gift">
-        <div class="tab-text">
-          <h2>MicroSucks Surface</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
-          <a href="product.html" class="btn btn-default">Read More</a>
+        <div role="tabpanel" class="tab-pane" id="specialmessage">
+          <div class="tab-text">
+            <h2>MicroSucks Surface</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deserunt officia error, debitis enim quasi inventore, voluptatum, illum corrupti quos autem modi alias temporibus assumenda ipsa provident veritatis tempora mollitia!</p>
+            <a href="product.html" class="btn btn-default">Read More</a>
+          </div>
+          <img class="slide-img" src="img/surface.png" alt="Description here!!!">
         </div>
-        <img class="slide-img" src="img/surface.png" alt="Description here!!!">
       </div>
     </div>
   </div>
