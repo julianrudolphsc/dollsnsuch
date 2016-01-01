@@ -1,8 +1,11 @@
 <template name="qfsidebar">
+  <h3>Quick Look:</h3>
   <div class="list-group">
-      <a href="#" class="list-group-item">1995</a>
-      <a href="#" class="list-group-item">Series</a>
-      <a href="#" class="list-group-item">name</a>
-      <a href="#" class="list-group-item">Mattel #: 12345</a>
+    {{#each products}}
+        <a href="#" class="list-group-item">Year: {{year}}</a>
+        <a href="#" class="list-group-item">Series: {{series}}</a>
+        <a href="#" class="list-group-item">Name: {{name}}</a>
+        <a href="#" class="list-group-item">Mattel #: {{mattelNumber}}</a>
+      {{/each}}
     </div>
 </template>

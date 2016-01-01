@@ -7,3 +7,11 @@ Template.sidebar.helpers({
     });
   }
 });
+
+Template.qfsidebar.helpers({
+  products: function(){
+    return Products.find({},{
+      name: name
+    });
+  }
+});

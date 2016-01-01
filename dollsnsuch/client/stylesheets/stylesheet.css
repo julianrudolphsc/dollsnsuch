@@ -1,6 +1,8 @@
 .lightblue {
   color: #73c5e1;
 }
+
+
 /*navbar styles*/
 .navbar {
   margin-bottom: 20px;
@@ -106,6 +108,11 @@ footer {
   padding-top: 20px;
   margin-top: 50px;
 }
+
+.full{
+  width: 100%;
+}
+
 @media (max-width: 960px) {
   header form {
     width: 100% !important;
